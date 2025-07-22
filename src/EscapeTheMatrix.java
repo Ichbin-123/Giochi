@@ -82,6 +82,7 @@ public class EscapeTheMatrix {
         System.out.println();
     }
 
+
     private static char[][] generaLabirintoRandom(int righe, int colonne, double percMuri) {
         char[][] lab = new char[righe][colonne];
         Random random = new Random();
